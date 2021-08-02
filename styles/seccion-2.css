@@ -1,0 +1,30 @@
+:root {
+    --ligth-green-color: #74C53A;
+    --dark-green-color: #3A652E;
+}
+
+#seccion-2{
+    height: auto;
+}
+
+#seccion-2 .row{
+    height: auto;
+}
+
+.titulo{
+    color: var(--ligth-green-color);
+}
+
+.titulo strong{
+    color: var(--dark-green-color);
+}
+
+.mybtn-outline-green-color{
+    border-color: var(--dark-green-color);
+    color: var(--dark-green-color);
+    border-radius: 60em;
+}
+
+#seccion-2 h5{
+    color: var(--ligth-green-color);
+}

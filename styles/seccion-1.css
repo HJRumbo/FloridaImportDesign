@@ -1,0 +1,144 @@
+:root {
+    --ligth-green-color: #74C53A;
+    --dark-green-color: #3A652E;
+}
+
+.navbar .navbar-brand{
+    font-size: 32px;
+}
+
+.navbar a{
+    color: #FFFFFF !important;
+}
+
+#contenido{
+    font-size: 16px;
+}
+
+#seccion-1{
+    height: auto;
+    width: 100%;
+    background-image: url(../Assets/background-ligth.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+.texto-blanco{
+    color: #FFFFFF;
+}
+
+.texto-blanco h2{
+    font-size: 3em;
+    padding-bottom: 30px;
+    padding-top: 120px;
+}
+
+.mybtn-green-color{
+    background-color: var(--dark-green-color);
+    border: none;
+}
+
+.mybtn-outline-white-color{
+    border-color: #ffffff;
+}
+
+.tamaño-botones{
+    width: 156px;
+    height: 40px;
+}
+
+.info-principal button{
+    border-radius: 60em;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.info-principal button:hover{
+    background-color: #9bc45f;
+}
+
+/* Pantallas pequeñas */
+
+@media screen and (max-width: 1200px) {
+    
+    .col-imagen img{
+        width: 454px;
+        height: 394px; 
+    }
+
+    .texto-blanco h2{
+        padding-top: 80px;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    .col-imagen img{
+        width: 354px;
+        height: 294px; 
+    }
+
+    .texto-blanco{
+        text-align: center;
+    }
+
+    .texto-blanco h2{
+        font-size: 30px;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+
+    .info-principal button{
+        justify-content: center;
+    }
+
+    #seccion-2 img{
+        width: 190px;
+        height: 72px;
+    }
+
+    .centrar-botones{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tamaño-botones{
+        width: 126px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    #seccion-1{
+        height: auto;
+        width: 100%;
+        background-image: url(../Assets/background-mediano-ligth.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .texto-blanco h2{
+        font-size: 1.5em;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+
+    #seccion-1 img{
+        padding-top: 30px;
+        width: 300px;
+        height: 244px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #seccion-1{
+        height: auto;
+        width: 100%;
+        background-image: url(../Assets/background-pequeño-ligth.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}

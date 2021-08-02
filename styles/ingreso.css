@@ -1,0 +1,12 @@
+:root {
+    --ligth-green-color: #74C53A;
+    --dark-green-color: #3A652E;
+}
+
+body{
+    background-color: var(--ligth-green-color);
+}
+
+.my-first-column{
+    background-color: var(--dark-green-color);
+}

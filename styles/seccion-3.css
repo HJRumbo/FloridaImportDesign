@@ -1,0 +1,24 @@
+#seccion-3{
+    background: #74C53A;
+    height: auto;
+}
+
+#seccion-3 .row{
+    height: auto;
+}
+
+.mybtn-green-color{
+    border-radius: 60em;
+    color: #ffffff;
+}
+
+.footer{
+    height: auto;
+    background-color: #000;
+    color: white;
+    bottom: 0;
+}
+
+.round{
+    border-radius: 10px;
+}
